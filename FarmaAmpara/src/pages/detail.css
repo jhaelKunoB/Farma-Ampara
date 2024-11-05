@@ -1,0 +1,22 @@
+/* Estilos para el mensaje de carga */
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el mensaje esté centrado verticalmente */
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Cambia este color según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo semitransparente */
+    animation: fadeIn 1s ease-in-out infinite alternate; /* Añade una animación */
+  }
+  
+  /* Animación simple de fadeIn */
+  @keyframes fadeIn {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
